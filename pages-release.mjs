@@ -142,7 +142,7 @@ function browserAnalytics(c){
   document.addEventListener("click",handle,true);
   document.addEventListener("auxclick",handle,true);
 }
-const privacyDisclosure='<div class="wrap" style="margin-top:12px;font-size:.78rem;color:var(--muted)"><strong>Measurement:</strong> We count page views and retailer-link clicks using broad campaign categories. No advertising cookies or visitor IDs are used. Campaign categories may be kept in this browser tab until it closes. Global Privacy Control and Do Not Track are respected. Retailer websites have separate privacy practices.</div>';
+const privacyDisclosure='<div class="wrap" style="margin-top:12px;font-size:.78rem;color:var(--muted)"><strong>Measurement:</strong> We count daily aggregate page views and retailer-link clicks using broad campaign categories. No advertising cookies or visitor IDs are used. Campaign categories may be kept in this browser tab until it closes. Global Privacy Control and Do Not Track are respected. Retailer websites have separate privacy practices.</div>';
 function measured(html){
   return html.replace("</footer>",privacyDisclosure+"</footer>").replace("</body>",'<script>('+browserAnalytics.toString()+')('+JSON.stringify(categories)+');</script></body>');
 }
@@ -165,8 +165,10 @@ async function collect(request,env,u,preview){
   if(d.event==="page_view"&&d.product!==(d.page==="home"?"none":d.page))return reply(400);
   const isQA=preview||d.source==="qa"||d.medium==="qa"||d.campaign==="release-qa";
   try{
-    if(!env.HGD_ANALYTICS)return reply(503);
-    env.HGD_ANALYTICS.writeDataPoint({indexes:[d.event],blobs:[d.event,d.page,d.product,d.source,d.medium,d.campaign,isQA?"qa":"live"],doubles:[1]});
+    if(!env.HGD_DB)return reply(503);
+    const day=new Date().toISOString().slice(0,10);
+    const result=await env.HGD_DB.prepare("INSERT INTO daily_events (day,event,page,product,source,medium,campaign,stream,count) VALUES (?,?,?,?,?,?,?,?,1) ON CONFLICT(day,event,page,product,source,medium,campaign,stream) DO UPDATE SET count=count+1").bind(day,d.event,d.page,d.product,d.source,d.medium,d.campaign,isQA?"qa":"live").run();
+    if(!result.success)return reply(503);
     return reply(204);
   }catch{return reply(503);}
 }
