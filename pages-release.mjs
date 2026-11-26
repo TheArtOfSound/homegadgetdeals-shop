@@ -1,5 +1,5 @@
 // Build: replace the quoted __HGD_CATALOG_HTML__ marker with JSON.stringify(index.html).
-// Replace __HGD_RELEASE_SHA__ with the source commit hash. Deploy as Pages advanced mode.
+// Replace the quoted release marker with the source commit hash. Deploy as Pages advanced mode.
 const catalog = "__HGD_CATALOG_HTML__";
 const release = "__HGD_RELEASE_SHA__";
 const origin = "https://homegadgetdeals.pages.dev";
