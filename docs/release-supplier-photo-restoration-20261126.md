@@ -1,0 +1,3 @@
+# Supplier photo restoration — 2026-11-26
+
+Watt supplied eight exact AliExpress item IDs and approved using those listings’ own galleries. Browser-rendered item pages returned matching product titles and gallery URLs; visual contact sheet reviewed and selected originals decoded. Four other products remain text-only. Open fulfillment variants remain labeled. The microfiber 50-pack lead image and ChopBox mixed-set lead image were excluded. No payment link or retail price changed. Original image URLs use the supplier CDN; CSP limited to that host. Supplier reuse permission remains unverified. No generated or lookalike substitutes.
