@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-26",
+  "previousDeployment": "38d4374b-1d2b-4163-a34c-da5bc10da159",
+  "policy": "Only verified exact supplier photographs; missing evidence means no image.",
+  "products": [
+    {
+      "id": "sunset-lamp",
+      "name": "Sunset Glow Projection Lamp",
+      "price": "16.99",
+      "url": "https://buy.stripe.com/bJe8wPblcccafxj9a77kc0h",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "astronaut-projector",
+      "name": "Astronaut Galaxy Star Projector",
+      "price": "19.99",
+      "url": "https://buy.stripe.com/9B628r8907VUetf3PN7kc0i",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "galaxy-projector",
+      "name": "Galaxy Star Projector, USB",
+      "price": "14.99",
+      "url": "https://buy.stripe.com/6oUfZhdtk6RQ4SF5XV7kc0j",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "mini-humidifier",
+      "name": "Mini USB Humidifier, 180 ml",
+      "price": "17.99",
+      "url": "https://buy.stripe.com/8x24gz74Wcca2Kxdqn7kc0k",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "glowbar-motion-light",
+      "name": "GlowBar Motion Sensor LED Cabinet Light Bar",
+      "price": "13.99",
+      "url": "https://buy.stripe.com/aFabJ1890gsq1Gtfyv7kc0l",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "spinscrub-pro",
+      "name": "SpinScrub Pro Cordless Electric Spin Scrubber",
+      "price": "24.99",
+      "url": "https://buy.stripe.com/cNi9AT60Seki4SF9a77kc0m",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "chopbox-vegetable-chopper",
+      "name": "ChopBox 14-in-1 Vegetable Chopper & Slicer Set",
+      "price": "19.99",
+      "url": "https://buy.stripe.com/eVq00jah84JI3OB9a77kc0n",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "drydeck-faucet-mat",
+      "name": "DryDeck Silicone Faucet Splash Guard Mat",
+      "price": "12.99",
+      "url": "https://buy.stripe.com/9B67sLblc6RQ84R9a77kc0o",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "sinkcaddy-pro",
+      "name": "SinkCaddy Pro Sponge Holder Drain Rack",
+      "price": "12.99",
+      "url": "https://buy.stripe.com/cNi28r1KC4JIcl79a77kc0p",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "doorpocket-organizer",
+      "name": "DoorPocket Organizer",
+      "price": "16.99",
+      "url": "https://buy.stripe.com/7sY6oH0Gyfom0Cp3PN7kc0q",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "dreamlight-sleep-mask",
+      "name": "Dreamlight 3D Sleep Mask",
+      "price": "14.99",
+      "url": "https://buy.stripe.com/dRm4gz2OGccagBn8637kc0r",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    },
+    {
+      "id": "microfiber-cleaning-cloths",
+      "name": "Microfiber Cleaning Cloths",
+      "price": "7.99",
+      "url": "https://buy.stripe.com/7sYfZh9d47VU3OBcmj7kc0s",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
+    }
+  ]
+}
