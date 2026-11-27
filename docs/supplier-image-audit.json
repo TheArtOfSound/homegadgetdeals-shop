@@ -32,20 +32,115 @@
       "name": "Astronaut Galaxy Star Projector",
       "price": "19.99",
       "url": "https://buy.stripe.com/9B628r8907VUetf3PN7kc0i",
-      "supplierListing": null,
-      "supplierVariant": null,
+      "supplierListing": "https://www.aliexpress.com/item/1005012308696033.html",
+      "supplierVariant": "White/black color not pinned",
       "photos": [],
-      "status": "blocked_missing_supplier_evidence"
+      "status": "blocked_variant_pin_pending",
+      "supplierListingId": "1005012308696033",
+      "supplierSeller": "Stone's Store",
+      "supplierCostUSD": "5.38",
+      "variantPinned": false,
+      "publicationApproved": false,
+      "storefrontState": "text_only",
+      "evidenceHandoff": "Watt, 2026-11-26",
+      "permission": "Supplier reuse permission not independently documented",
+      "supplierListingTitle": "Astronaut Galaxy Star Projector Night Light 360° Rotatable Nebula Ceiling Lamp Remote Control for Kids Bedroom Home Party Decor",
+      "supplierMirror": "https://www.chartbuy.com/products/astronaut-galaxy-star-projector-night-light-360-rotatable-ne-1005012308696033-12000058040366916",
+      "listingGalleryCandidates": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S860533b4405543fb80e0900966e4e7f9s.jpg",
+          "decodeVerified": true,
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S4e5fb9de72c44b368bd496c11ce1ef23S.jpg",
+          "decodeVerified": true,
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S39ad03bdb8b640a38dc8568ddb989289C.jpg",
+          "decodeVerified": true,
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S84325e97403f485a9a294ee5fc868af0g.jpg",
+          "decodeVerified": true,
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "additionalListingGalleryCandidates": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S214a73a35ca744ae82516d0a8dfaef8dM.jpg",
+          "decodeVerified": true,
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "thumbnailCandidate": "https://ae-pic-a1.aliexpress-media.com/kf/S860533b4405543fb80e0900966e4e7f9s.jpg",
+      "galleryProvenance": "All four Watt URLs independently matched the exact live item gallery; additional lead image independently recovered. Not visually approved for a pinned fulfillment variant."
     },
     {
       "id": "galaxy-projector",
       "name": "Galaxy Star Projector, USB",
       "price": "14.99",
       "url": "https://buy.stripe.com/6oUfZhdtk6RQ4SF5XV7kc0j",
-      "supplierListing": null,
-      "supplierVariant": null,
+      "supplierListing": "https://www.aliexpress.com/item/3256808219711202.html",
+      "supplierVariant": "Fulfillment variant not pinned",
       "photos": [],
-      "status": "blocked_missing_supplier_evidence"
+      "status": "blocked_variant_pin_pending",
+      "supplierListingId": "3256808219711202",
+      "supplierSeller": "Stone's Store",
+      "supplierCostUSD": "2.99",
+      "variantPinned": false,
+      "publicationApproved": false,
+      "storefrontState": "text_only",
+      "evidenceHandoff": "Watt, 2026-11-26",
+      "permission": "Supplier reuse permission not independently documented",
+      "supplierListingTitle": "Galaxy Projector RGB Star Projector USB Powered Remote Control Night Light Lamp for Birthday Gifts Holiday Party Room Decoration",
+      "listingGalleryCandidates": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S4acecd0a4f0c4b9d88b60e323661c2016.jpg",
+          "decodeVerified": true,
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S4dee4c1623b3449899e1c799df730a17F.jpg",
+          "decodeVerified": true,
+          "width": 720,
+          "height": 720
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S0a0f70b8ad6d438b8bc4a7e560d812f0Q.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S089acc40853a4c56b4236194a3736d5f3.jpg",
+          "decodeVerified": true,
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S092ecb832e864fb58f6608611fe8a7d9Q.jpg",
+          "decodeVerified": true,
+          "width": 900,
+          "height": 900
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S8fb4abd0609c48ed8d7cc533f3f45f4f1.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "thumbnailCandidate": "https://ae-pic-a1.aliexpress-media.com/kf/S4acecd0a4f0c4b9d88b60e323661c2016.jpg",
+      "galleryProvenance": "Six images independently recovered from exact live item gallery; not visually approved for a pinned fulfillment variant."
     },
     {
       "id": "mini-humidifier",
@@ -55,7 +150,10 @@
       "supplierListing": null,
       "supplierVariant": null,
       "photos": [],
-      "status": "blocked_missing_supplier_evidence"
+      "status": "blocked_missing_supplier_evidence",
+      "publicationApproved": false,
+      "storefrontState": "text_only",
+      "evidenceHandoff": "Watt reports renewed search found no exact supplier listing."
     },
     {
       "id": "glowbar-motion-light",
@@ -183,9 +281,22 @@
       "price": "16.99",
       "url": "https://buy.stripe.com/7sY6oH0Gyfom0Cp3PN7kc0q",
       "supplierListing": null,
-      "supplierVariant": null,
+      "supplierVariant": "4 vs 6 tier not pinned",
       "photos": [],
-      "status": "blocked_missing_supplier_evidence"
+      "status": "blocked_missing_supplier_listing_and_variant",
+      "unattributedImageCandidates": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb0dfc35218d945d58e70e41ade4fdb90O.jpg",
+          "decodeVerified": true,
+          "width": 1200,
+          "height": 1200,
+          "source": "Watt reports Paybik deal page; exact supplier listing not identified",
+          "publicationApproved": false
+        }
+      ],
+      "variantPinned": false,
+      "publicationApproved": false,
+      "storefrontState": "text_only"
     },
     {
       "id": "dreamlight-sleep-mask",
@@ -193,7 +304,7 @@
       "price": "14.99",
       "url": "https://buy.stripe.com/dRm4gz2OGccagBn8637kc0r",
       "supplierListing": "https://www.aliexpress.com/item/1005012655626469.html",
-      "supplierVariant": "Pack quantity and fulfillment color not confirmed; retail assumes one mask",
+      "supplierVariant": "One mask intended, based on Watt's reported singular title, unit price and ChartBuy SKU framing; fulfillment color and exact SKU not confirmed",
       "photos": [
         {
           "url": "https://ae-pic-a1.aliexpress-media.com/kf/S559c75bfb6ea445b9509ab9922156f5b7.jpg",
@@ -205,7 +316,12 @@
       "supplierSeller": "Stone's Store",
       "variantPinned": false,
       "photoSource": "Exact listing gallery extracted and visually reviewed 2026-11-26",
-      "permission": "Supplier reuse permission not independently documented"
+      "permission": "Supplier reuse permission not independently documented",
+      "supplierCostUSD": "7.69",
+      "packQuantity": 1,
+      "packQuantityStatus": "reported_pin_inferred_from_listing_not_independently_sku_verified",
+      "evidenceHandoff": "Watt, 2026-11-26",
+      "variantEvidence": "Exact listing title independently confirmed singular mask; unit price and ChartBuy framing supplied by Watt. Not an explicit selected SKU or pack quantity field; retain open color and SKU checks."
     },
     {
       "id": "microfiber-cleaning-cloths",
@@ -232,10 +348,100 @@
       "name": "FlameGlow Aroma Diffuser",
       "price": "16.99",
       "url": "https://buy.stripe.com/bJe00jgFw4JI2Kx8637kc0t",
-      "supplierListing": null,
-      "supplierVariant": null,
+      "supplierListing": "https://www.aliexpress.com/item/1005008248127279.html",
+      "supplierVariant": "Plug/bundle SKU not pinned",
       "photos": [],
-      "status": "blocked_missing_supplier_evidence"
+      "status": "blocked_gallery_discrepancy_and_variant_pin",
+      "supplierListingId": "1005008248127279",
+      "supplierSeller": "Stone's Store",
+      "supplierCostUSD": "7.43",
+      "variantPinned": false,
+      "publicationApproved": false,
+      "storefrontState": "text_only",
+      "evidenceHandoff": "Watt, 2026-11-26",
+      "permission": "Supplier reuse permission not independently documented",
+      "supplierListingTitle": "Aroma Humidifier Flame Can Add Essential Oil Small Aroma Relax Machine Air Humidifier Equipped with colorful Lighting Function",
+      "handoffGalleryCandidates": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S10ea94a2f9c1485197680e70cff9dff3q.png",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S1ff524938185480da1f9c0d90f27831be.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sdd57ffb9b56940dcb5e34877f5e373f9s.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S7dfa0ebe141348cf872e4036e9b26647V.jpg",
+          "decodeVerified": true,
+          "width": 781,
+          "height": 1457
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S591aa6c2b7cf427f9182b8354ec3fe89r.jpg",
+          "decodeVerified": true,
+          "width": 789,
+          "height": 1462
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S4b243534c69643ab9876ecae0f5c613bq.jpg",
+          "decodeVerified": true,
+          "width": 790,
+          "height": 1275
+        }
+      ],
+      "handoffThumbnailCandidate": "https://ae-pic-a1.aliexpress-media.com/kf/S10ea94a2f9c1485197680e70cff9dff3q.png",
+      "listingGalleryCandidates": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sc2406789478d485494a85f17204ece5cq.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S4a9b9c864c4e40d6b0ea0bcef420bf76o.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S514c50ce35574263b3ae7bb3777d327eN.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sc3bddfae24944a4c918c95d18ad8782a4.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S26ef88efe8de425db95ec027f9b8029cc.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S1b24e559cfb241f884a31557fe19b366P.jpg",
+          "decodeVerified": true,
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "thumbnailCandidate": null,
+      "galleryProvenance": "No overlap between six Watt-supplied image URLs and six images from current exact item gallery; direct gallery URLs recorded separately. Reconcile source and exact product/variant before selection or publication."
     }
-  ]
+  ],
+  "lastEvidenceHandoff": "2026-11-26",
+  "evidenceNote": "Candidate galleries are held separately from photos (approved/currently published imagery). Recording evidence does not authorize publication. All five existing text-only entries remain text-only. Costs and seller names from Watt handoff, not independently verified."
 }
