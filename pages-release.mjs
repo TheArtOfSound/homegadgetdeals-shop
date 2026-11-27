@@ -290,6 +290,17 @@ function validateProductPhotography(){
  if(seen.size!==guides.length||guides.some(g=>!seen.has(g.slug)))throw new Error("Product / guide mismatch");
 }
 validateProductPhotography();
+function validateFeaturedPhotography(){
+ const features=[...catalog.matchAll(/<div class="feature-pick" data-feature="([^"]+)"[^>]*>([\s\S]*?)<div class="feature-bottom"><strong>\$([^<]+)<\/strong>/g)];
+ const seen=new Set();
+ for(const [,id,body,price] of features){
+  const evidence=supplierPhotos[id],item=retail[id],imgs=[...body.matchAll(/<img\b[^>]*src="([^"]+)"/g)].map(m=>m[1]);
+  if(seen.has(id)||!evidence||!item||imgs.length!==1||imgs[0]!==evidence.photos[0].url||String(item.price)!==price||!body.includes('href="/guides/'+id+'/"'))throw Error("Featured evidence or price mismatch: "+id);
+  seen.add(id);
+ }
+ if(features.length!==2||seen.size!==2)throw Error("Featured collection mismatch");
+}
+validateFeaturedPhotography();
 const escape = s => String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const link = slug => "/guides/"+slug+"/";
 const css = catalog.match(/<style>([\s\S]*?)<\/style>/)[1];
