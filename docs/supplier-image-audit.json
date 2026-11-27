@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
   "previousDeployment": "38d4374b-1d2b-4163-a34c-da5bc10da159",
-  "policy": "Supplier gallery provenance required; unconfirmed variants labeled under owner handoff; no substitutions.",
+  "policy": "Only supplier listing galleries permitted. Newly added product requires evidence and thumbnail before release; existing five explicitly grandfathered text-only pending sourcing.",
   "products": [
     {
       "id": "sunset-lamp",
@@ -226,6 +226,16 @@
       "variantPinned": false,
       "photoSource": "Exact listing gallery extracted and visually reviewed 2026-11-26",
       "permission": "Supplier reuse permission not independently documented"
+    },
+    {
+      "id": "flameglow-aroma-diffuser",
+      "name": "FlameGlow Aroma Diffuser",
+      "price": "16.99",
+      "url": "https://buy.stripe.com/bJe00jgFw4JI2Kx8637kc0t",
+      "supplierListing": null,
+      "supplierVariant": null,
+      "photos": [],
+      "status": "blocked_missing_supplier_evidence"
     }
   ]
 }
